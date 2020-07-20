@@ -1,0 +1,37 @@
+{
+  "name": "@gitsync/plugin-git-replacer",
+  "description": "Gitsync plugin to replace tags, URL and hashes in files before commit.",
+  "version": "1.0.0",
+  "author": "twinh",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "yarn clean && tsc",
+    "clean": "rimraf dist coverage",
+    "test": "jest",
+    "prepare": "yarn build"
+  },
+  "dependencies": {
+    "@types/fs-extra": "^9.0.1",
+    "@types/hosted-git-info": "^3.0.0",
+    "escape-string-regexp": "^4.0.0",
+    "fs-extra": "^9.0.1",
+    "hosted-git-info": "^3.0.5",
+    "string-replace-async": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/rimraf": "^2.0.2",
+    "coveralls": "^3.0.6",
+    "jest": "^24.9.0",
+    "rimraf": "^3.0.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.3"
+  }
+}
