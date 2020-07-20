@@ -18,6 +18,8 @@
     "prepare": "yarn build"
   },
   "dependencies": {
+    "@types/node": "^14.0.23",
+    "@gitsync/sync": "^0.5.1",
     "@types/fs-extra": "^9.0.1",
     "@types/hosted-git-info": "^3.0.0",
     "escape-string-regexp": "^4.0.0",
@@ -25,13 +27,19 @@
     "hosted-git-info": "^3.0.5"
   },
   "devDependencies": {
+    "@gitsync/test": "^0.5.0",
     "@types/jest": "^24.0.18",
-    "@types/node": "^14.0.23",
     "@types/rimraf": "^2.0.2",
     "coveralls": "^3.0.6",
     "jest": "^24.9.0",
     "rimraf": "^3.0.0",
     "ts-jest": "^24.0.2",
     "typescript": "^3.5.3"
+  },
+  "ciDependencies": {
+    "@gitsync/sync": "gitsync-pkg/gitsync-sync",
+    "@gitsync/config": "gitsync-pkg/gitsync-config",
+    "@gitsync/log": "gitsync-pkg/gitsync-log",
+    "@gitsync/test": "gitsync-pkg/gitsync-test"
   }
 }
