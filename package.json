@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@types/node": "^14.0.23",
-    "@gitsync/sync": "^0.5.1",
+    "@gitsync/sync": "^0.6.0",
     "@types/fs-extra": "^9.0.1",
     "@types/hosted-git-info": "^3.0.0",
     "escape-string-regexp": "^4.0.0",
