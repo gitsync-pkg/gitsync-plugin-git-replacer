@@ -1,3 +1,13 @@
+## [1.0.1](https://github.com/gitsync-pkg/gitsync-plugin-git-replacer/compare/v1.0.0...v1.0.1) (2020-08-06)
+
+
+
+
+
+### Dependencies
+
+* **@gitsync/sync:** upgrade from 0.6.0 to 0.6.1
+
 # 1.0.0 (2020-07-21)
 
 
